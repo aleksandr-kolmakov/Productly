@@ -146,10 +146,11 @@ button{
 }
 .tools__inner{
     padding-bottom: 90px;
-    background-image: url(../images/tools-bg.svg);
+    background-image: url(../images/tools-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
     background-size: cover;
+    
 }
 
 
@@ -185,6 +186,54 @@ button{
     text-transform: uppercase;
     width: 173px;
     margin: 0 auto;
+}
+
+.direction{
+    padding: 120px 0 100px;
+}
+
+.direction__item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+.direction__item-content{
+    max-width: 486px;
+}
+.direction__item-pretitle{
+    line-height: 24px;
+    margin-bottom: 3px;
+}
+.direction__item-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 22px;
+}
+.direction__item-text{
+    margin-bottom: 30px;
+}
+.direction__item-subtitle{
+    font-weight: 700;
+    margin-bottom: 12px;    
+}
+
+.direction__list-item{
+    list-style: none;
+    padding-left: 65px;
+    margin-bottom: 30px;
+    max-width: 430px;
+    position: relative;
+}
+.direction__list-item::before{
+    position: absolute;
+    content: "";
+    background-image: url(../images/ok.svg);
+    width: 35px;
+    height: 35px;
+    left: 0;
+    top: 9px;
 }
 
 
